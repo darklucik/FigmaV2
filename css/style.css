@@ -1,0 +1,141 @@
+.main {
+    background-image: url('../img/html_css_js.png');
+    background-repeat: no-repeat;
+    background-position:  right 40px top 20px;
+    background-position: top calc(7.75vw + 15px) right calc(0.16vw + 8.26px);
+    background-size: calc(16.26vw + 89.7px);
+}
+.info {
+    display: flex;
+    margin-bottom: calc(1.84vw + 41.6px);
+}
+section {
+    margin-top: calc(0.20vw + 40.75px);
+    margin-left: calc(6.22vw + 0.65px);
+    margin-right: calc(6.22vw + 0.65px);
+    margin-bottom: calc(6.5vw + 35.648px);
+}
+    
+   
+
+.start {
+    margin-right: 20px;
+    
+}
+h1 {
+    font-family: Chava-Regular;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    font-size: 80px;
+    line-height: 110%;
+    font-size: calc(2.5vw + 32.75px);
+}
+.logo {
+    margin-bottom: calc(3.7vw + 14.2px);
+    width: calc(5.2vw + 195.520px);
+    height: calc(0.65vw + 27.565px)
+}
+body {
+    margin-left: 120px;
+    color: #222;
+    font-family: TTHoves-Regular;
+    
+}
+.start2 {
+
+font-size: 21px;
+font-weight: 700;
+
+}
+.end2 {
+font-size: 21px;
+font-weight: 700;
+
+}
+.primary {
+    display: flex;
+    width: 328px;
+    padding: 20px 0px;
+    justify-content: center;
+    gap: 10px;
+    background: #6E3ABA;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.second {
+    display: flex;
+    width: 328px;
+    padding: 20px 0px;
+    justify-content: center;
+    gap: 10px;
+    background: #fff;
+    color: #6E3ABA;
+    border: solid 1px #6E3ABA;
+    border-radius: 12px;
+  
+}
+@font-face {
+    font-family: Chava-Regular;
+    src: url(../fonts/Chava-Regular.ttf);
+}
+@font-face {
+    font-family: TTHoves-Regular;
+    src: url(../fonts/TTHoves-Regular.ttf);
+}
+.span {
+ 
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.btn {
+    margin-bottom: 160px;
+}
+.title {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 140%; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+    
+
+.ppl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(0.8vw + 37.06px) 70px;
+    margin-top: 50px;
+}
+.type {
+    width: calc(8.44vw + 298.29px);
+}
+.btn {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.verst {
+    font-size: calc(0.6vw + 15.83px);
+    font-weight: 300;
+    line-height: 140%;
+}
+.backpic {
+    height: calc(3.7vw + 216px);
+}
+.studentpic {
+    height: calc(3.7vw + 216px);
+}
+.begpic {
+    height: calc(3.7vw + 216px);
+}
+.jobpic {
+    height: calc(3.7vw + 216px);
+}
+.infoppl {
+    font-size: calc(0.58vw + 15.80px);
+    font-weight: 400;
+    line-height: 140%;
+}
