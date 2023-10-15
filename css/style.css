@@ -2,7 +2,7 @@
     background-image: url('../img/html_css_js.png');
     background-repeat: no-repeat;
     background-position:  right 40px top 20px;
-    background-position: top calc(7.75vw + 15px) right calc(0.16vw + 8.26px);
+    background-position: top calc(8vw + 15px) right calc(0.16vw + 8.26px);
     background-size: calc(16.26vw + 89.7px);
 }
 .info {
