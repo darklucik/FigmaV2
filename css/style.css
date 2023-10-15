@@ -121,6 +121,7 @@ font-weight: 700;
     font-size: calc(0.6vw + 15.83px);
     font-weight: 300;
     line-height: 140%;
+    margin-top: 60px;
 }
 .backpic {
     height: calc(3.7vw + 216px);
