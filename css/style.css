@@ -8,6 +8,7 @@
 .info {
     display: flex;
     margin-bottom: calc(1.84vw + 41.6px);
+    flex-wrap: wrap;
 }
 section {
     margin-top: calc(0.20vw + 40.75px);
