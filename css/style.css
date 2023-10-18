@@ -4,6 +4,8 @@
     background-position:  right 40px top 20px;
     background-position: top calc(8vw + 15px) right calc(0.16vw + 8.26px);
     background-size: calc(16.26vw + 89.7px);
+    margin-bottom: 160px;
+    margin-left: 30px;
 }
 .info {
     display: flex;
@@ -17,13 +19,15 @@ section {
     margin-bottom: calc(6.5vw + 35.648px);
 }
     
-   
+  * {
+    margin: 0;
+  } 
 
 .start {
     margin-right: 20px;
     
 }
-h1 {
+.htmlcss {
     font-family: Chava-Regular;
     margin-top: 75px;
     margin-bottom: 40px;
@@ -37,7 +41,6 @@ h1 {
     height: calc(0.65vw + 27.565px)
 }
 body {
-    margin-left: 30px;
     color: #222;
     font-family: TTHoves-Regular;
     
@@ -140,4 +143,206 @@ font-weight: 700;
     font-size: calc(0.58vw + 15.80px);
     font-weight: 400;
     line-height: 140%;
+}
+.sale-cont {
+    background-color: #6E3ABA;
+    padding-top: 60px;
+    margin: 0;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sale-cont h1 {
+    color: #FFF;
+    font-family: TTHoves-Regular;
+    font-size: calc(2vw + 26.5px);
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: calc(4vw + 4.6px);
+}
+.time {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ 
+}
+.time h2 {
+    font-size: calc(12.6vw + 12.76px);
+    font-family: Chava-Regular;
+}
+.time p {
+    color: #2F1D4E;
+     text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.clock {
+    display: flex;
+    gap: calc(6vw + 7.2px);
+    flex-direction: row;
+    justify-content: center;
+}
+.clockbtn {
+    display: flex;
+    width: 328px;
+    padding: 20px 0px;
+    justify-content: center;
+    gap: 10px;
+    background: #fff;
+    color: #6E3ABA;
+    border: solid 1px #6E3ABA;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+.header_f {
+    color: #222;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    padding-top: 160px;
+    margin-bottom: calc(5.5vw + 19.3px);
+}
+.legend {
+    width: calc(7.8vw + 300px);
+}
+.infomain {
+    color: #222;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.result {
+    color: #222;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin-left: 120px;
+    margin-bottom: 90px;
+}
+.legendmain h1 {
+    color: #222;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.speaker {
+    display: flex;
+    gap: 0 51px;
+}
+.speaker_info h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.spinfo {
+    color: #222;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%; 
+    max-width: 566px;
+    margin-bottom: 90px;
+}
+.emoji_cards {
+    display: flex;
+    flex-direction: column;
+    gap:  0 90px;
+}
+.emoji_card {
+    max-width: 250px;
+    margin: 40px;
+}
+.emoji_card p {
+    color: #222;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%; 
+}
+.infocourse {
+    display: flex;
+
+}
+.emoji_container {
+    display: flex;
+}
+.infomain {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+
+@media (max-width:1100px) {
+    .speaker {
+        flex-direction: column;
+    }
+    .emoji_cards:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .diplomprev:nth-child(1) {
+       flex-direction: column-reverse;
+}
+}
+.info_main h1 {
+    margin-bottom: 90px;
+}
+
+.info_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px 120px;
+}
+
+.info_cont {
+    max-width: 400px;
+}
+
+.info_cont .title {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.info_cont .value {
+    font-size: 27px;
+    line-height: 140%; 
+}
+.diplom_screen {
+    display: flex;
+}
+.diplomprev {
+    flex-direction: column;
+    margin-left: 20px;
+    display: flex;
+}
+.diplomprev h2 {
+    color: #222;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.diplomprev p {
+    color: #222;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 20px;
+}
+.diplompic {
+    width: calc(11.3vw + 284.3px);
 }
