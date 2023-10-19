@@ -225,7 +225,6 @@ font-weight: 700;
     font-weight: 500;
     letter-spacing: 0.58px;
     text-transform: uppercase;
-    margin-left: 120px;
     margin-bottom: 90px;
 }
 .legendmain h1 {
@@ -328,6 +327,7 @@ font-weight: 700;
     flex-direction: column;
     margin-left: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 .diplomprev h2 {
     color: #222;
@@ -345,4 +345,9 @@ font-weight: 700;
 }
 .diplompic {
     width: calc(11.3vw + 284.3px);
+}
+@media (max-weight:600px) {
+    .info {
+       flex-direction: column;
+    }
 }
