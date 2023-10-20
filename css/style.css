@@ -294,32 +294,7 @@ font-weight: 700;
        flex-direction: column-reverse;
 }
 }
-.info_main h1 {
-    margin-bottom: 90px;
-}
 
-.info_block {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px 120px;
-}
-
-.info_cont {
-    max-width: 400px;
-}
-
-.info_cont .title {
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 140%;
-    text-transform: uppercase;
-}
-
-.info_cont .value {
-    font-size: 27px;
-    line-height: 140%; 
-}
 .diplom_screen {
     display: flex;
 }
@@ -346,8 +321,143 @@ font-weight: 700;
 .diplompic {
     width: calc(11.3vw + 284.3px);
 }
+
+.usinfo {
+    color: #222;
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;   
+}
+.about_Us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 97px;
+    margin-top: 80px;
+}
+.about_Us .title_Us {
+    font-size: calc(2.6vw + 24px);
+}
+.about_Us .value {
+    font-size: calc(1vw + 13px);
+    line-height: 140%;
+}
+.about_Us .desc {
+    color: #222;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: uppercase;
+}
 @media (max-weight:600px) {
-    .info {
-       flex-direction: column;
+    .about_Us {
+        grid-template-columns: 1fr;
+    }
+}
+
+.diplominfo {
+    display: grid;
+    grid-template-columns: 450px 500px;
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px 20px;
+    grid-template-areas: "a b"
+                         "c d"     ;
+  }
+  
+  .diplominfo img {
+    margin-right: 20px;
+    width: calc(11vw + 288.5px);
+    height: calc(7.7vw + 201px);
+    grid-area: a;
+  }
+  
+  .diplomh1 {
+    grid-area: b;
+    color: #222;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    max-width: 578px;
+    min-width: 578px;
+  }
+  
+  .diplominfo p {
+    font-size: 27px;
+    line-height: 140%;
+    max-width: 514px;
+    grid-area: d;
+    padding-top: 30px;
+  }
+  
+  @media (max-width:1100px) {
+    .diplominfo {
+      grid-template-columns: 430px;
+      grid-template-rows: 150px 300px 300px;
+      grid-template-areas: "a"
+                           "b"
+                           "c";
+    }
+    .diplominfo h1 {
+      grid-area: a;
+    }
+    .diplominfo img {
+      grid-area: b;
+    }
+    .diplominfo p {
+      grid-area: c;
+    }
+  }
+.info_cont h1{
+    font-size: calc(1.5vw + 28.1px);
+    margin-bottom: 90px;
+}
+.info_main .title{
+    font-size:27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.info_main .value{
+    margin-top: 20px;
+    font-size: 27px;
+    line-height: 140%; 
+}
+.started{
+    width: 400px;
+    height: 250px;
+    grid-area: a;
+}
+.helpstud{
+    width: 420px;
+    height: 250px;
+    grid-area: b;
+}
+.results{
+    margin-top: 50px;
+    width: 400px;
+    height: 250px;
+    grid-area: c;
+}
+.prakinf{
+    margin-top: 70px;
+    width: 400px;
+    height: 250px;
+    grid-area: d;
+}
+.info_main{
+    display: grid;
+    gap: 50px 120px;
+    max-width: 400px;
+    grid-template-areas: "a b"
+                         "c d";
+}
+@media (max-width: 700px) {
+    .info_main{
+       
+        grid-template-areas:  "a"
+                              "b"
+                              "c"
+                              "d";
     }
 }
