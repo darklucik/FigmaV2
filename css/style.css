@@ -334,6 +334,8 @@ font-weight: 700;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 97px;
     margin-top: 80px;
+    grid-template-areas: "a b"
+                         "c d"     ;
 }
 .about_Us .title_Us {
     font-size: calc(2.6vw + 24px);
@@ -341,13 +343,15 @@ font-weight: 700;
 .about_Us .value {
     font-size: calc(1vw + 13px);
     line-height: 140%;
+
 }
-.about_Us .desc {
+.desc {
     color: #222;
     font-size: 27px;
     font-weight: 600;
     line-height: 140%; 
     text-transform: uppercase;
+    grid-area: c;
 }
 @media (max-weight:600px) {
     .about_Us {
@@ -387,10 +391,10 @@ font-weight: 700;
     line-height: 140%;
     max-width: 514px;
     grid-area: d;
-    padding-top: 30px;
+    padding-top: 10px;
   }
   
-  @media (max-width:1100px) {
+  @media (max-width:700px) {
     .diplominfo {
       grid-template-columns: 430px;
       grid-template-rows: 150px 300px 300px;
@@ -459,5 +463,67 @@ font-weight: 700;
                               "b"
                               "c"
                               "d";
+    }
+}
+.coursewraper {
+    border: 2px solid black;
+    padding: 81px 52px 35px 64px;
+}
+.crs {
+    color: #222;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.lesson {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 34px;
+}
+.lesson li {
+    padding: 24px 0;
+    border-bottom: 1px solid black;
+    font-size: 21px;
+    line-height: 140%;
+}
+.lesson li:nth-child(1){
+    padding-top: 0px;
+}
+.coursewraper .primary {
+    display: block;
+    margin: 0 auto;
+}
+.corner img {
+    width: 100%;
+    height: 100%;
+}
+.corner {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -3;
+    right: -6;
+
+}
+.program .primary{
+    display: block;
+    margin: 0 auto;   
+}
+.mobile.primary {
+    display:  none;
+}
+@media (max-width:920px) {
+    .program .primary{
+        display: none;
+        margin: 0 auto;   
+    }
+    .mobile.primary {
+        display:  block;
+        margin-top: 30px;
+    }
+    .lesson li:nth-child(:last-child) {
+        border-bottom: none;
     }
 }
